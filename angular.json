@@ -23,9 +23,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/css/index/gym/style.css",
+              "src/css/responsive.css",
+              "src/js/plugins/slider-revolution/css/settings.css",
+              "src/js/plugins/slider-revolution/css/layers.css",
+              "src/js/plugins/slider-revolution/css/navigation.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/js/vendor/modernizr-custom.js",
+              "src/js/plugins.js",
+              "src/js/scripts.js",
+              "src/js/plugins/slider-revolution/js/jquery.themepunch.tools.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,5 +135,8 @@
       }
     }
   },
-  "defaultProject": "wrappy"
+  "defaultProject": "wrappy",
+  "cli": {
+    "packageManager": "yarn"
+  }
 }
